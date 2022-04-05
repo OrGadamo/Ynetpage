@@ -1,0 +1,251 @@
+body{
+    direction:rtl;
+    width: 80vw;
+    margin: auto;
+}
+#yheader{
+    height: 20vh;
+    position: relative;
+}
+#logo{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    right: 35vw;
+    top: 5vh;
+}
+#rhblock{
+    position: absolute;
+    right: 0;
+    bottom: 5vh;
+}
+#rhblock > span{
+    font-size: 15px;
+    padding-left: 0.4vw;
+}
+#lhblock{
+    position: absolute;
+    left: 0;
+    bottom: 5vh;
+}
+#lhblock > span{
+    
+    padding-left: 0.6vw;
+}
+#ynetplus{
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left:0;
+    padding-right: 0.6vw;
+}
+#redbar{
+    height:4vh;
+    background-color:#de1a1a;
+    color: #fff;
+    direction: ltr;
+    text-align: center;
+    font-size: 0;
+}
+#redbar > span{
+    display: inline-block;
+    font-size: 15px;
+    font-style: bold;
+    padding: 0vh 1.3vw 0;
+    position: relative;
+    top: 0.7vh;
+}
+#more{
+    border: 2px solid white;
+    border-radius: 40%;
+}
+#urgent{
+    height: 17vh;
+    margin: 2vh 0 2vh;
+    background-color:#f3f8f9;
+    font-size: 3vw;
+}
+.newsbox{
+    display: inline-block;
+    width: 12vw;
+    height: 13vh;
+    border-left: 1px dotted black;
+    margin-top: 2vh;
+    
+    
+}
+.newsbox > span{
+    display: block;
+    font-size: 13px;
+    margin-top: 1vh;
+    margin-right: 1vw;
+}
+.newsbox > a{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+#mibzak{
+    font-size: 17px;
+    display: block;
+    margin-top: 6.5vh;
+    color: #de1a1a;
+}
+#newcontent{
+    height: 52vh;
+    position: relative;
+    overflow: auto;
+}
+#container{
+    height: 42vh;
+    width: 40vw;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 1vh;
+}
+#yimage{
+    height: 48vh;
+    width:40vw ;
+}
+#textbox{
+    height: 52vh;
+    width: 30vw;
+    position: absolute;
+    right: 0;
+}
+h1{
+    text-align: right;
+    font-style: bold;
+    font-size: 48px;
+}
+p{
+    text-align: right ;
+    font-size: 18px;
+}
+#spanlike{
+    font-size: 15px;
+    color: #78787b;
+}
+#next{
+    height: 60vh;
+    position: relative;
+    margin-bottom: 2vh;
+
+}
+#listlike{
+    height: 60vh;
+    width: 40vw;
+    position: absolute;
+    left: 0;
+}
+#ad1con{
+    width: 18vw;
+    height: 60vh;
+    position: absolute;
+    right: 0;
+}
+#ad23con{
+    width: 18vw;
+    height: 60vh;
+    position: absolute;
+    right: 19vw;
+}
+#ad1{
+    width: 18vw;
+    height: 60vh;
+}
+#ad2con{
+    width: 18vw;
+    height: 29vh;
+    margin-bottom: 1vh;
+}
+#ad3con{
+    width: 18vw;
+    height: 29vh;
+    margin-top: 1vh;
+}
+#ad2{
+    width: 18vw;
+    height: 29vh;
+}
+#ad3{
+    width: 18vw;
+    height: 29vh;
+}
+#artbox{
+    display: block;
+    height: 13vh;
+    width: 40vw;
+    margin-bottom:2vh;
+    position: relative;
+}
+.artimg{
+    height: 13vh;
+    width: 13vw;
+    position: absolute;
+    right: 0;
+}
+.txtart{
+    position: absolute;
+    right: 13vw;
+    width: 27vw;
+    height: 13vh;
+    color: #fff;
+}
+.headart{
+    display: block;
+    font-weight: bold;
+}
+#foot{
+    height: 4vh;
+    position: relative;
+    margin-bottom: 2vh;
+}
+#lfoot{
+    position: absolute;
+    left: 0;
+    width: 39.5vw;
+    height: 4vh;
+    background-color: #1417ac;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+#rfoot{
+    width: 38vw;
+    position: absolute;
+    right: 0;
+    background-color: #1417ac;
+    height: 4vh;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+#piclineup{
+    height: 25vh;
+    font-size: 0;
+    margin-bottom: 7vh;
+}
+.line{
+    display: inline-block;
+    width: 10vw;
+    margin-left: 5vw;
+    height: 25vh;
+    overflow: hidden;
+    
+}
+.conpicline{
+    width: 10vw;
+    height: 16vh; 
+}
+.conpic{
+    width: 10vw;
+    height: 16vh;
+}
+.line > span{
+    font-size: 17px;
+    font-weight: bold;
+  }
